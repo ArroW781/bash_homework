@@ -1,4 +1,6 @@
 #!/bin/bash
+echo $0
+echo $3 $2 $1
 echo "Привет, какой сегодня день недели? "
 read day_of_week
 echo "Уже $day_of_week "
