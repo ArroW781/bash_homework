@@ -1,0 +1,4 @@
+#!/bin/bash
+read -p "Enter day of week: " day_of_week
+read -p "Enter day number: " day_number
+echo "Сегодня $day_of_week - $day_number."

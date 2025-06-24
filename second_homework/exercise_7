@@ -1,0 +1,9 @@
+#!/bin/bash
+echo "Привет, какой сегодня день недели? "
+read day_of_week
+echo "Уже $day_of_week "
+echo "Какое сегодня число? "
+read day_number
+echo "Не думал что $day_of_week будет $day_number числа "
+echo "Я считаю что сегодня $(date) "
+
