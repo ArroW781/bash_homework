@@ -1,5 +1,10 @@
 #!/bin/bash
 read -p "First number: " a
 read -p "Second number: " b
+if [ $a -gt $b ]; then
 echo $((a/b))
 echo $((a%b))
+else
+echo $((b/a))
+echo $((b%a))
+fi
