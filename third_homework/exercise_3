@@ -1,5 +1,3 @@
 #!/bin/bash
-read -p "Enter osn: " a
-read -p "Enter height: " b
-echo "Square rectangle: " $((a*b))
-echo "Peremitr: " $(((a+b)*2))
+echo "Square rectangle: " $(($1*$2))
+echo "Peremitr: " $((($1+$2)*2))

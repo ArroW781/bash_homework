@@ -1,6 +1,4 @@
-read -p "A: " A
-read -p "B: " B
-read -p "C: " C
-s=$(echo "$A * $B * $C" | bc -l)
-area=$(echo "scale=6; sqrt($s * ($s - $A) * ($s - $B) * ($s - $C))" | bc -l)
+#!/bin/bash
+s=$(echo "($1 * $2 * $3) / 2" | bc -l)
+area=$(echo "scale=6; sqrt($s * ($s - $1) * ($s - $2) * ($s - $3))" | bc -l)
 echo $area

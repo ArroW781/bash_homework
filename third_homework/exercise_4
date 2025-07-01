@@ -1,4 +1,2 @@
 #!/bin/bash
-read -p "A: " A
-read -p "B: " B
-echo "$A * $B / 2" | bc -l
+echo "$1 * $2 / 2" | bc -l
