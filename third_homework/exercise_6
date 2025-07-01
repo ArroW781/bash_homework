@@ -1,0 +1,8 @@
+#!/bin/bash
+arg=$1
+if [ $arg -ge 0 ]; then
+echo "Число положительное"
+else
+echo "Число отрицательное"
+fi
+

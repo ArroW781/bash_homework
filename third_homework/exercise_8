@@ -1,0 +1,10 @@
+#!/bin/bash
+
+if [[ -z $1 || $1 -lt 0 || $# -lt 1 || $# -gt 2 ]]; then
+echo "Please send one non negative number"
+fi
+if (( $1 % 2 == 0 )); then
+echo "Число четное"
+else
+echo "Число нечетное"
+fi
