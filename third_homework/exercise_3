@@ -1,0 +1,3 @@
+#!/bin/bash
+echo "Square rectangle: " $(($1*$2))
+echo "Peremitr: " $((($1+$2)*2))

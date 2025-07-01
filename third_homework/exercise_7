@@ -1,0 +1,8 @@
+#!/bin/bash
+read -p "Введи строку: " stroka
+read -p "Введи подстроку: " podstroka
+if [[ $stroka == *"$podstroka"* ]]; then
+echo "Содержит"
+else
+echo "Не содержит"
+fi
