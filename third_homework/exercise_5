@@ -1,4 +1,4 @@
 #!/bin/bash
-s=$(echo "($1 * $2 * $3) / 2" | bc -l)
+s=$(echo "($1 + $2 + $3) / 2" | bc -l)
 area=$(echo "scale=6; sqrt($s * ($s - $1) * ($s - $2) * ($s - $3))" | bc -l)
 echo $area
